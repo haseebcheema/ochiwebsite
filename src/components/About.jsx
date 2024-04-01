@@ -18,8 +18,8 @@ function About() {
         </div>
         <div className='flex flex-col'>
             <h5 className='mb-4'>S:</h5>
-            {['Instagram', 'Behance', 'Facebook', 'LinkedIn'].map((item, index) => (
-                <a key={index} className='mb-2 underline underline-offset-[0.2vw] cursor-pointer'>{item}</a>
+            {[{'link': 'Instagram', 'url':'https://www.instagram.com/ochi_design/'}, {'link': 'Behance', 'url':'https://www.behance.net/ochi_design'}, {'link': 'Facebook', 'url':'https://www.facebook.com/people/OCHI-presentation-design/100067218942460/'}, {'link': 'LinkedIn', 'url':'https://www.linkedin.com/company/ochi-design/https://www.linkedin.com/company/ochi-design/'}].map((item, index) => (
+                <a key={index} href={item.url} className='mb-2 underline underline-offset-[0.2vw] cursor-pointer'>{item.link}</a>
             ))}
         </div>
       </div>
