@@ -3,7 +3,7 @@ import { IoMdArrowForward } from "react-icons/io";
 
 function LandingPage() {
   return (
-    <div className="bg-[#F1F1F1] text-white w-full h-screen pt-1">
+    <div className="text-white w-full h-screen pt-1">
       <div className="textstructure mt-44 font-bold font-['Founders Grotesk X-Condensed'] text-[#212121]">
         {["we create", "eye opening", "presentations"].map((item, index) => {
             return (
@@ -24,10 +24,10 @@ function LandingPage() {
       <hr className="mt-20 border-[#B2B2B2]"/>
       <div className="start flex justify-between items-center w-full pl-12 pt-4 font-['Neue Montreal']">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => (
-            <h2 key={index} className="text-sm text-[#212121]"> {item} </h2>
+            <h2 key={index} className="text-[1.1vw] text-[#212121]"> {item} </h2>
         ))}
         <div className="projects flex gap-1 items-center pr-10 text-[#212121]">
-            <button type="button" className="rounded-full px-2 py-1 text-sm border border-[#212121] cursor-grab hover:bg-[#212121] hover:text-white">START THE PROJECT</button>
+            <button type="button" className="rounded-full px-2 py-1 text-[1.1vw] border border-[#212121] cursor-grab hover:bg-[#212121] hover:text-white">START THE PROJECT</button>
             <IoMdArrowForward className="border border-[#212121] rounded-full size-8 px-1 -rotate-45 flex justify-center items-center cursor-grab hover:bg-[#212121] hover:text-white"/>
         </div>
       </div>
