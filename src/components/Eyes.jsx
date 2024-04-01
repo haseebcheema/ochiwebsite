@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function Eyes() {
 
+    // creating a state variable that can hold the angle value
     const [angle, setAngle] = useState('');
 
     // immediately invoked after page is fully loaded
