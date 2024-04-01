@@ -27,8 +27,8 @@ function LandingPage() {
             <h2 key={index} className="text-[1.1vw] text-[#212121]"> {item} </h2>
         ))}
         <div className="projects flex gap-1 items-center pr-10 text-[#212121]">
-            <button type="button" className="rounded-full px-2 py-1 text-[1.1vw] border border-[#212121] cursor-grab hover:bg-[#212121] hover:text-white">START THE PROJECT</button>
-            <IoMdArrowForward className="border border-[#212121] rounded-full size-8 px-1 -rotate-45 flex justify-center items-center cursor-grab hover:bg-[#212121] hover:text-white"/>
+            <button type="button" className="rounded-full px-2 py-1 text-[1.1vw] border border-[#212121] cursor-pointer hover:bg-[#212121] hover:text-white">START THE PROJECT</button>
+            <IoMdArrowForward className="border border-[#212121] rounded-full size-8 px-1 -rotate-45 flex justify-center items-center cursor-pointer hover:bg-[#212121] hover:text-white"/>
         </div>
       </div>
     </div>
