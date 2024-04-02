@@ -11,8 +11,13 @@ import CardsTwo from './components/CardsTwo';
 import Start from './components/Start';
 import Footer from './components/Footer';
 import Last from './components/Last';
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+
+  // using locomotive scroll
+  const locomotiveScroll = new LocomotiveScroll();
+  
   return (
     <div className='w-full h-screen bg-[#F1F1F1]'>
       <Navbar/>
