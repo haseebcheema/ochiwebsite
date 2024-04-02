@@ -9,6 +9,8 @@ import Reviews from './components/Reviews';
 import Cards from './components/Cards';
 import CardsTwo from './components/CardsTwo';
 import Start from './components/Start';
+import Footer from './components/Footer';
+import Last from './components/Last';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Reviews/>
       <CardsTwo/>
       <Start/>
+      <Footer/>
+      <Last/>
     </div>
   )
 }
