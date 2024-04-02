@@ -6,6 +6,8 @@ import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
 import Reviews from './components/Reviews';
+import Cards from './components/Cards';
+import CardsTwo from './components/CardsTwo';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Eyes/>
       <Featured/>
       <Reviews/>
+      <CardsTwo/>
     </div>
   )
 }
