@@ -36,7 +36,6 @@ function Eyes() {
                         <div className='w-6 h-6 bg-white rounded-full'></div>
                     </div>
                 </div>
-                    
             </div>
             <div className='flex items-center justify-center w-[18vw] h-[18vw] bg-[#F1F1F1] rounded-full'>
                 <div className='relative flex justify-center items-center text-white font-semibold w-2/3 h-2/3 bg-[#212121] rounded-full '>
@@ -45,7 +44,6 @@ function Eyes() {
                         <div className='w-6 h-6 bg-white rounded-full'></div>
                     </div>
                 </div>
-                    
             </div>
         </button>
     </div>

@@ -8,6 +8,7 @@ import Featured from './components/Featured';
 import Reviews from './components/Reviews';
 import Cards from './components/Cards';
 import CardsTwo from './components/CardsTwo';
+import Start from './components/Start';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Featured/>
       <Reviews/>
       <CardsTwo/>
+      <Start/>
     </div>
   )
 }
