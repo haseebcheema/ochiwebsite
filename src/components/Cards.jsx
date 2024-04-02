@@ -12,15 +12,15 @@ function Cards() {
                     </div>
                     {(index === 0) ? (
                         <div>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AUDIT</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COPYWRITING</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SALES DESK</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SLIDES DESIGN</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AUDIT</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COPYWRITING</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SALES DESK</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SLIDES DESIGN</button>
                         </div>
                     ) : (
                         <div>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AGENCY</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COMPANY PRESENTATION</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AGENCY</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COMPANY PRESENTATION</button>
                         </div>
                     )}
                 </div>
@@ -35,13 +35,13 @@ function Cards() {
                     </div>
                     {(index === 0) ? (
                         <div>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRAND IDENTITY</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">DESIGN RESEARCH</button>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">INVESTOR DECK</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRAND IDENTITY</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">DESIGN RESEARCH</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">INVESTOR DECK</button>
                         </div>
                     ) : (
                         <div>
-                            <button className="rounded-full px-2 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRANDED TEMPLATE</button>
+                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRANDED TEMPLATE</button>
                         </div>
                     )}
                 </div>
