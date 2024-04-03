@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 function Reviews() {
@@ -10,8 +11,8 @@ function Reviews() {
             <h className='underline underline-offset-4 w-[11vw]'>Karman Ventures</h>
             <div className=''>
                 <h1 className='text-[1.1vw] mb-10'>Services</h1>
-                <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">INVESTOR DECK</button>
-                <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SALES DECK</button>
+                <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">INVESTOR DECK</motion.button>
+                <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">SALES DECK</motion.button>
             </div>
             <div className='w-72 leading-6'>
                 <h1 className='text-[1.1vw] mb-10'>William Barnes</h1>

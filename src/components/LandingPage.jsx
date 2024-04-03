@@ -5,7 +5,7 @@ import { IoMdArrowForward } from "react-icons/io";
 
 function LandingPage() {
   return (
-    <div className="text-white w-full h-screen pt-1">
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="text-white w-full h-screen pt-1">
       <div className="textstructure mt-44 font-bold font-['Founders Grotesk X-Condensed'] text-[#212121]">
         {["we create", "eye opening", "presentations"].map((item, index) => {
           return (

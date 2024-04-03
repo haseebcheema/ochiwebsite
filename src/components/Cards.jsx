@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 function Cards() {
@@ -12,15 +13,15 @@ function Cards() {
                     </div>
                     {(index === 0) ? (
                         <div>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AUDIT</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COPYWRITING</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SALES DESK</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">SLIDES DESIGN</button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">AUDIT</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">COPYWRITING</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">SALES DESK</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">SLIDES DESIGNmotion.</motion.button>
                         </div>
                     ) : (
                         <div>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">AGENCY</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">COMPANY PRESENTATION</button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">AGENCY</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">COMPANY PRESENTATION</motion.button>
                         </div>
                     )}
                 </div>
@@ -35,13 +36,13 @@ function Cards() {
                     </div>
                     {(index === 0) ? (
                         <div>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRAND IDENTITY</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">DESIGN RESEARCH</button>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">INVESTOR DECK</button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">BRAND IDENTITY</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">DESIGN RESEARCH</motion.button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">INVESTOR DECK</motion.button>
                         </div>
                     ) : (
                         <div>
-                            <button className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white mt-3 mr-2">BRANDED TEMPLATE</button>
+                            <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} className="rounded-full px-3 py-[0.5vw] text-[1vw] border border-[#3B3F2B] cursor-pointer mt-3 mr-2">BRANDED TEMPLATE</motion.button>
                         </div>
                     )}
                 </div>

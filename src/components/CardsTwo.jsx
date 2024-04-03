@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 function CardsTwo() {
@@ -12,11 +13,11 @@ function CardsTwo() {
       <div className="cards-container w-1/2 h-96 flex gap-4">
         <div className="relative card w-1/2 h-full bg-[#212121] flex justify-center items-center rounded-lg">
             <img className='w-32' src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
-            <button className='absolute left-6 bottom-8 text-[#F1F1F1] text-sm uppercase border border-[#F1F1F1] rounded-full px-3 py-1 hover:bg-[#F1F1F1] hover:text-[#212121]'>Rating 5.0 On Clutch</button>
+            <motion.button whileHover={{backgroundColor: "#F1F1F1", color: "#212121"}} className='absolute left-6 bottom-8 text-[#F1F1F1] text-sm uppercase border border-[#F1F1F1] rounded-full px-3 py-1'>Rating 5.0 On Clutch</motion.button>
         </div>
         <div className="relative card w-1/2 h-full bg-[#212121] flex justify-center items-center rounded-lg">
             <img className='w-28' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
-            <button className='absolute left-6 bottom-8 text-[#F1F1F1] text-sm uppercase border border-[#F1F1F1] rounded-full px-3 py-1 hover:bg-[#F1F1F1] hover:text-[#212121]'>Business Bootcamp Alumni</button>
+            <motion.button whileHover={{backgroundColor: "#F1F1F1", color: "#212121"}} className='absolute left-6 bottom-8 text-[#F1F1F1] text-sm uppercase border border-[#F1F1F1] rounded-full px-3 py-1'>Business Bootcamp Alumni</motion.button>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 function Start() {
@@ -52,21 +53,21 @@ function Start() {
                 THE PROJECT?
             </h1>
             <div className="w-full flex flex-col justify-center items-center gap-4">
-                <button
+                <motion.button whileHover={{backgroundColor: "#000", color: "#fff"}}
                     type="button"
-                    className="flex gap-7 items-center w-fit rounded-full px-6 py-[1.5vw] text-[#F1F1F1] bg-[#212121] text-[1vw] border cursor-pointer border-none hover:bg-black hover:text-white"
+                    className="flex gap-7 items-center w-fit rounded-full px-6 py-[1.5vw] text-[#F1F1F1] bg-[#212121] text-[1vw] border cursor-pointer border-none"
                 >
                     START THE PROJECT{" "}
                     <div className="w-2 h-2 bg-[#F1F1F1] rounded-full"></div>
-                </button>
+                </motion.button>
                 <h2>OR</h2>
-                <button
+                <motion.button whileHover={{backgroundColor: "#000", color: "#fff"}}
                     type="button"
-                    className="flex gap-7 items-center w-fit rounded-full px-6 py-[1.5vw] text-[#212121] bg-[#CDEA68] text-[1vw] border border-[#212121] cursor-pointer hover:bg-black hover:text-white"
+                    className="flex gap-7 items-center w-fit rounded-full px-6 py-[1.5vw] text-[#212121] bg-[#CDEA68] text-[1vw] border border-[#212121] cursor-pointer"
                 >
                     HELLO@OCHI.DESIGN{" "}
                     <div className="w-2 h-2 bg-[#212121] rounded-full"></div>
-                </button>
+                </motion.button>
             </div>
         </div>
     );
