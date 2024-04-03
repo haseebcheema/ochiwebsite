@@ -17,7 +17,7 @@ function App() {
 
   // using locomotive scroll
   const locomotiveScroll = new LocomotiveScroll();
-  
+
   return (
     <div className='w-full h-screen bg-[#F1F1F1]'>
       <Navbar/>

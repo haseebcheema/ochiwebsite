@@ -1,3 +1,5 @@
+
+import { motion } from "framer-motion";
 import React from "react";
 import { IoMdArrowForward } from "react-icons/io";
 
@@ -10,9 +12,9 @@ function LandingPage() {
             <div key={index} className="masker">
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                  <div className="mr-[1.5vw] w-[8vw] h-[5vw] -top-[0.5vw] left-[3.5vw] relative">
-                    <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" className="w-full h-full bg-cover bg-center rounded-md" alt="" />
-                  </div>
+                  <motion.div initial={{width: 0}} animate={{width: "8.5vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="mr-[1.5vw] w-[8.5vw] h-[5vw] -top-[0.5vw] left-[3.5vw] relative">
+                    <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" className="w-[9vw] h-full bg-cover bg-center rounded-md" alt="" />
+                  </motion.div>
                 )}
                 <h1 className="text text-[7vw] uppercase tracking-tighter leading-[5.6vw] mx-10">
                   {item}
@@ -28,8 +30,8 @@ function LandingPage() {
           <h2 key={index} className="text-[1.1vw] text-[#3B3F2B]"> {item} </h2>
         ))}
         <div className="projects flex gap-1 items-center pr-10 text-[#3B3F2B]">
-          <button type="button" className="rounded-full px-3 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer hover:bg-[#212121] hover:text-white">START THE PROJECT</button>
-          <IoMdArrowForward className="border border-[#3B3F2B] rounded-full size-[2.1vw] px-1 -rotate-45 flex justify-center items-center cursor-pointer hover:bg-[#212121] hover:text-white" />
+          <motion.button whileHover={{backgroundColor: "#212121", color: "#fff"}} type="button" className="rounded-full px-3 py-1 text-[1.1vw] border border-[#3B3F2B] cursor-pointer">START THE PROJECT</motion.button>
+          <IoMdArrowForward className="border border-[#3B3F2B] rounded-full size-[2.1vw] px-1 -rotate-45 flex justify-center items-center cursor-pointer hover:bg-[#212121] hover:text-white transition-all" />
         </div>
       </div>
     </div>
